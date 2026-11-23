@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meteo-simulato": {
+      "type": "local",
+      "command": "./.venv/bin/python",
+      "args": ["mcp_server.py"],
+      "tools": ["get_weather_mcp"]
+    }
+  }
+}
